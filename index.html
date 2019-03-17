@@ -1,58 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>Curriculum Vitae</title>
-	<style type="text/css">
-		body {
-			margin: 20px;
-			border-width: 5px;
-			border-style: solid;
-			border-color: #838383;
-			width: 800px;
-			height: 640px;
-		}
-		.top-unit {
-			display: inline-block;
-			width: 800px;
-			height: 40px;
-			background-color: #3d4f5b;
-			font-family: Algerian;
-			font-size: 12px;
-			font-weight: normal;
-			text-align: center;
-		}
-		.left-down-unit .img {
-			float: left;
-			width: 350px;
-			height: 600px;
-			background: linear-gradient(to right, #464646, #6e6e6e);
-			display: table-cell;
-			vertical-align: middle;
-			text-align: center;
-			line-height: 10px;
-			margin: 0px;
-			padding: 0px;
-		}
-		.right-down-unit {
-			width: 450px;
-			height: 600px;
-		}
-	</style>
+	<link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-	<div class="top-unit">
-		<h2>
-	 		Curriculum Vitae
-	 	</h2>
+	<div class="header">
+	 	<p id="title">Curriculum Vitae</p>
 	</div>
-	<div class="left-down-unit">
-		<div class="img">
-			<p><img src="https://raw.githubusercontent.com/serkosha/serkosha.github.io/master/photo.jpg" width="128" height="128"></p>
-			Мельничук Сергей
+
+	<div class="colomn-left">
+		<img src="pictures/picture.jpg">
+
+		<p id="first-name">Сергей</p>
+		<p id="last-name">Мельничук</p>
+
+		<h2><span>Люблю:</span></h2>
+			<div id="nuts">
+				<p>Орешки</p>
+			</div>
+
+			<div id="cakes">
+				<p>Пироженки</p>
+			</div>
+			<div id="orange-juice">
+				<p >Апельсиновый сок</p>
+			</div>
+
+		<h2><span>Контакты:<span></h2>
+		<ul>
+			<li>
+				<a href="https://vk.com/serhii_melnichuk">VK</a>
+			</li>
+			<br>
+			<li>
+				<a href="https://t.me/serhii_melnychuk">Telegram</a>
+			</li>
+			<br>
+			<li>
+				<a href="https://www.facebook.com/seriygreyserg">Facebook</a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="colomn-right">
+		<h3>Дата рождения:</h3>
+		<p>14 марта 1996г</p>
+		
+		<h3>Место рождения:</h3>
+		<p id="info">Нетешин</p>
+		
+		<h3>Soft Skill:</h3>
+		<ul id="info">
+			<li>AutoCad</li>
+			<br>
+			<li>Paint</li>
+			<br>
+			<li>SketchUp</li>
+		</ul>
+
+		<h3>Обо мне:</h3>
+		<ul id="info">
+			<li>Не пью</li>
+			<br>
+			<li>Не курю</li>
+			<br>
+			<li>Не употребляю</li>
+		</ul>
 		</div>
-	</div>
-	<div class="right-down-unit">
-		Текст
-	</div>
 </body>
 </html>

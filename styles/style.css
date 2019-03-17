@@ -1,0 +1,130 @@
+body {
+	height: 670px;
+	border: 5px solid #7f7f7f;
+	font-family: Comic Sans MS;
+}
+
+.header {
+	height: 50px;
+	background-color: #3d4f5b;
+	text-align: center;
+}
+
+#title {
+	font-size: 24px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.colomn-left {
+	float: left;
+	width: 40%;
+	height: 620px;
+	background: linear-gradient(to right, #464646, #6e6e6e);
+	color: #ffffff;
+}
+
+img {
+	width: 150px;
+	height: 150px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 18px;
+	border: 2px solid #919193;
+	border-radius: 50px;
+}
+
+#first-name {
+	text-align: center;
+	font-size: 40px;
+	margin-top: 10px;
+	margin-bottom: 0px; 
+}
+
+#last-name {
+	text-align: center;
+	font-size: 40px;
+	margin: 0 auto;
+	border-bottom: 3px solid #fafb3b;
+	width: 90%;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+span {
+	border-bottom: 3px solid #ffffff;
+}
+
+p {
+	font-size: 12px;
+}
+
+#nuts {
+	margin-left: 10px;
+	border-radius: 5px;
+	text-align: center;
+	margin-right: 115px;
+	background-color: #f5a700;
+}
+
+#cakes {
+	margin-left: 10px;
+	border-radius: 5px;
+	text-align: center;
+	margin-right: 190px;
+	background-color: #0b6fde;
+}
+
+#orange-juice {
+	margin-left: 10px;
+	border-radius: 5px;
+	text-align: center;
+	margin-right: 40px;
+	background-color: #00810a;
+}
+
+ul {
+	padding-left: 30px;
+	font-size: 10px;
+}
+
+li {
+	font-size: 12px;
+}
+
+a {
+	color: #0000FF;
+}
+
+.colomn-right {
+	width: 35%;
+	height: 620px;
+	float: left;
+	color: #18486c;
+	padding-left: 5px;
+}
+
+h3 {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+#info {
+	border-bottom: 3px solid #3078a0;
+	padding-bottom: 15px;
+	list-style: none;
+}
+
+ul#info {
+	padding-left: 20px;
+}
+
+#info li:before {
+	content:  "—";
+    position: relative;
+    left: -5px;
+}
